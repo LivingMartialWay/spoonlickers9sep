@@ -1,0 +1,26 @@
+HTTrack3.49-2 launched on Mon, 09 Sep 2024 14:21:10 at https://spoonlickers.b12sites.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://spoonlickers.b12sites.com/ -O "/home/danbach/websites/spoonlickers 9 sept" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:21:13	Warning: 	Note: due to https://spoonlickers.b12sites.com remote robots.txt rules, links beginning with these path will be forbidden: /autogen-2024-09-08-191153/ (see in the options to disable this)
+14:24:02	Error: 	"Not Found" (404) at link https://spoonlickers.b12sites.com/assets/fonts/fontawesome-webfont-fee66e712a8a08eef5805a46892932ad.woff2 (from https://spoonlickers.b12sites.com/)
+14:24:23	Error: 	"Not Found" (404) at link https://spoonlickers.b12sites.com/window.location (from https://spoonlickers.b12sites.com/)
+14:24:33	Error: 	"" (404) at link https://spoonlickers.b12sites.com/assets/fonts/fontawesome-webfont-fee66e712a8a08eef5805a46892932ad.woff2 (from https://spoonlickers.b12sites.com/)
+14:24:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://spoonlickers.b12sites.com/assets/fonts/fontawesome-webfont-fee66e712a8a08eef5805a46892932ad.woff
+14:24:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://spoonlickers.b12sites.com/assets/fonts/fontawesome-webfont-b06871f281fee6b241d60582ae9369b9.ttf
+14:24:35	Warning: 	HTML file (306062 bytes) retransferred due to lack of cache: https://spoonlickers.b12sites.com/about
+14:24:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://spoonlickers.b12sites.com/assets/fonts/ajax-loader-c5cd7f5300576ab4c88202b42f6ded62.gif
+14:24:40	Warning: 	HTML file (280923 bytes) retransferred due to lack of cache: https://spoonlickers.b12sites.com/classic-vanilla-ice-cream
+14:24:46	Warning: 	HTML file (280972 bytes) retransferred due to lack of cache: https://spoonlickers.b12sites.com/chocolate-fudge-brownie
+14:24:53	Warning: 	HTML file (280979 bytes) retransferred due to lack of cache: https://spoonlickers.b12sites.com/strawberry-swirl-delight
+14:25:00	Warning: 	HTML file (277767 bytes) retransferred due to lack of cache: https://spoonlickers.b12sites.com/luke-mcgraw
+14:25:05	Warning: 	HTML file (277736 bytes) retransferred due to lack of cache: https://spoonlickers.b12sites.com/laura-lau
+14:25:19	Warning: 	HTML file (277820 bytes) retransferred due to lack of cache: https://spoonlickers.b12sites.com/nick-burke
+14:25:25	Warning: 	HTML file (277725 bytes) retransferred due to lack of cache: https://spoonlickers.b12sites.com/rebecca-lopes
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 22 seconds : 77 links scanned, 85 files written (11522941 bytes overall) [8037930 bytes received at 30679 bytes/sec], 4040265 bytes transferred using HTTP compression in 17 files, ratio 19%, 1.8 requests per connection
+(3 errors, 12 warnings, 0 messages)
